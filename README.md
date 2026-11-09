@@ -1,3 +1,8 @@
+# 2026 note
+I found that the high model accuracy was due to data leakage. 
+Duplicates were being pulled during the randomized API process and not corrected for after. 
+Further testing showed that the R² fell to 0.27.
+
 # Spotify_ML
 An attempt to use machine learning to fit Spotify audio features to Spotify "Popularity" index.
 See the Spotify_ML.pdf for a brief overview and the code for more in depth information.
